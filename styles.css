@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+/*Мои стили*/
+/*Верхняя менюшка*/
+.nav {
+    background-color: black;
+    display: flex;
+    height: 100px;
+}
+.sub-nav {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.sub-nav-link {
+    color: white;
+    font-size: 30px;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.rocket {
+    font-size: 75px;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.right-sub-nav {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: auto;
+    display: flex;
+}
+.avatar {
+    display: flex;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.search {
+    display: flex;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.avatar-link {
+    display: flex;
+    height: 80px;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.search-link {
+    display: flex;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+/*Главная страница*/
+main {
+    padding-top: 80px;
+    background-color: #1C1F57;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.main-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.main-right {
+    margin-right: 100px;
+}
+.about {
+    font-size: 40px;
+}
+.choose-link {
+    color: white;
+    background-color: black;
+    border-radius: 24px;
+    width: 240px;
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 200px;
+    display: flex;
+}
+/*Выбор планеты*/
+.platet-card {
+    height: 330px;
+    width: 235px;
+    display: block;
+}
+.platet-sub-card {
+    height: 235px;
+    width: 235px;
+    border-radius: 24px;
+    background-color: rgba(35, 30, 30, 74);
+    display: flex;
+}
+.palnet-img {
+    margin: auto;
+}
+.planet-on-link {
+    height: 76px;
+    width: 235px;
+    border-radius: 24px;
+    background-color: rgba(19, 13, 13, 74);
+    display: flex;
+    margin-top: 19px;
+}
+.planet-link {
+    color: white;
+    font-size: 30px;
+    margin: auto;   
+}
+.planet-main {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+    grid-template-columns: auto auto auto auto;
+}
